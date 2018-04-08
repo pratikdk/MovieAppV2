@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">MovieDB2</string>
+    <string name="movie_detail">MovieDetail</string>
+    <string name="no_internet_connection">There is no internet connection! Please connect your device to the Internet.</string>
+    <string name="no_favorite_movies">There are no favorite movies in your movies collection.</string>
+    <string name="user_rating_max_rank">/10</string>
+
+    <string name="button_favorite_text">Mark as Favorite</string>
+    <string name="button_favorite_unfavortext">Unmark as Favorite</string>
+
+    <string name="movie_no_review">There is no reviews for this movie.</string>
+    <string name="movie_no_trailer">There is no trailers for this movie.</string>
+
+    <string name="showing_popular_movies">Showing popular movies</string>
+    <string name="showing_top_rated_movies">Showing top rated movies</string>
+    <string name="showing_favorite_movies">Showing favorite movies</string>
+
+    <!--Strings for detailIntentActivity-->
+    <string name="movie_key" translatable="false">movie</string>
+
+    <string name="written_by">Written by</string>
+    <string name="reviews">Reviews</string>
+    <string name="trailers">Trailers</string>
+
+    <!--menu action items-->
+    <string name="action_show_top_rated_movies">Top Rated Movies</string>
+    <string name="action_show_popular_movies">Popular Movies</string>
+    <string name="action_show_favorite_movies">Favorite Movies</string>
+
+    <!--shared preferences keys-->
+    <string name="pref_current_movies_filter" translatable="false">current_movie_filter</string>
+
+    <string name="movie_added_to_favorites" translatable="true">This movie was added to your favorites.</string>
+    <string name="movie_deleted_from_favorites" translatable="true">This movie was removed from your favorites.</string>
+    <string name="snackbar_action">Action</string>
+
+    <string name="movie_info_label">Movie Info</string>
+
+</resources>

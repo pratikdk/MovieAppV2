@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tv_margin"
+        android:layout_marginStart="@dimen/tv_margin"
+        android:layout_marginTop="@dimen/tv_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@+id/tv_writtenby"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Mack Mackerson" />
+
+    <TextView
+        android:id="@+id/tv_writtenby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_margin"
+        android:text="@string/written_by"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_writtenby"
+        app:layout_constraintTop_toBottomOf="@+id/tv_writtenby"
+        tools:text="I love this movie a lot! 10/10" />
+
+    <View
+        android:id="@+id/review_divider"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/divider_height1dp"
+        android:layout_marginTop="@dimen/tv_margin"
+        android:background="@color/colorDivider"
+        android:paddingBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review" />
+</android.support.constraint.ConstraintLayout>
